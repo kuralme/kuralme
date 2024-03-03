@@ -1,9 +1,8 @@
 ## Hello, visitor 👋
 
-I am an aspiring robotics softare engineer. Currently, a newcomer to Canada🍁 looking for work.
-- 🚗 Working on getting a Self-Driving Car certificate
+I am an aspiring robotics softare engineer. Interested in Mobile and Aerial Robotics, Computer Vision, DL/RL, Control Systems and Climbing. Currently, a newcomer to Canada🍁 looking for work.
 - 🦿 Familiar with several programming languages an environments related to mobile robotics.
-- 🐋 My recent habit is to put everything in containers.
+- 🐋 My recent habit is to containerize projects.
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=kuralme&theme=gruvbox)](https://git.io/streak-stats)
 
