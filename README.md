@@ -1,6 +1,6 @@
 ## Hello, visitor 👋
 
-I am an aspiring robotics softare engineer. Interested in Mobile and Aerial Robotics, Computer Vision, DL/RL, Control Systems and Climbing. Currently, a newcomer to Canada🍁 looking for work.
+I am an aspiring robotics softare engineer. Interested in `Mobile and Aerial Robotics`, `Computer Vision`, `DL/RL`, `Control Systems`. Currently, a newcomer to Canada🍁 looking for work.
 - 🦿 Familiar with several programming languages an environments related to mobile robotics.
 - 🐋 My recent habit is to containerize projects.
 
