@@ -24,12 +24,12 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox
           path: profile/stats.svg
           
-      - name: Top Languages Card
-        uses: vn7n24fzaq/github-readme-stats-action@v1
-        with:
-          output: profile/langs.svg
-          query: username=${{ github.repository_owner }}&theme=gruvbox&layout=donut&hide=javascript,html,css
-          token: ${{ secrets.STATS_CARD_TOKEN }}
+      # - name: Top Languages Card
+      #   uses: vn7n24fzaq/github-readme-stats-action@v1
+      #   with:
+      #     output: profile/langs.svg
+      #     query: username=${{ github.repository_owner }}&theme=gruvbox&layout=donut&hide=javascript,html,css
+      #     token: ${{ secrets.STATS_CARD_TOKEN }}
           
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
