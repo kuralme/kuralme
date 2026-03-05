@@ -21,8 +21,8 @@ jobs:
         with:
           card: stats
           token: ${{ secrets.STATS_CARD_TOKEN }}
-          options: username=${{ github.repository_owner }}&show_icons=true
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox
+          path: profile/stats.svg   path: profile/stats.svg
           
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
