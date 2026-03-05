@@ -16,13 +16,21 @@ jobs:
     steps:        
       - uses: actions/checkout@v4
 
-      - name: GitHub Readme Stats Action
+      - name: Stats Card
         uses: stats-organization/github-readme-stats-action@v1.1.0
         with:
           card: stats
           token: ${{ secrets.STATS_CARD_TOKEN }}
           options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox
           path: profile/stats.svg
+          
+      - name: Top Languages Card
+        uses: stats-organization/github-readme-stats-action@v1.1.0
+        with:
+          card: langs
+          options: username=${{ github.repository_owner }}&theme=gruvbox&layout=donut&hide=javascript,html,css
+          token: ${{ secrets.STATS_CARD_TOKEN }}
+          path: profile/langs.svg
           
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
