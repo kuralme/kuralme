@@ -5,10 +5,9 @@ I bridge the gap between high-level autonomy and embedded execution, mapping com
 
 ---
 
-
-
-
-
+| 📅 **Commit History** | 📌 **Starred Topics** |
+| :--- | :--- |
+| ![Isometric Calendar](metrics-isocalendar.svg) | ![Starred Topics](metrics-stars.svg) |
 
 <!--[![GitHub Streak](https://streak-stats.demolab.com/?user=kuralme&theme=gruvbox)](https://git.io/streak-stats)-->
 <!--![Stats](./profile/stats.svg)-->
