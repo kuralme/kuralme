@@ -8,5 +8,5 @@ I am an aspiring robotics softare engineer and a newcomer to Canada🍁 looking 
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=kuralme&theme=gruvbox)](https://git.io/streak-stats)
 
-![Stats](./profile/stats.svg)
+<!--![Stats](./profile/stats.svg)-->
 
