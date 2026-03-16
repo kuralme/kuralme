@@ -4,7 +4,7 @@ Roboticist, software engineer and open-source contributor dedicated to building 
 I bridge the gap between high-level autonomy and embedded execution, mapping complex perception and control into safe, real-world motion. Currently, exploring safety-critical systems and embedded C/C++ to ensure the robots of tomorrow work predictably.
 
 <!--![Isometric Calendar](metrics-isocalendar.svg)-->
-<img src="metrics-isocalendar.svg" width="500" />
+<img src="metrics-isocalendar.svg" width="600" />
 
 ![Languages](metrics-languages.svg)
 
