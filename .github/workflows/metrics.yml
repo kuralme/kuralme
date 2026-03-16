@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.STATS_CARD_TOKEN }}
           filename: profile/metrics-isocalendar.svg
+          committer_branch: main
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -24,14 +25,16 @@ jobs:
         with:
           token: ${{ secrets.STATS_CARD_TOKEN }}
           filename: profile/metrics-languages.svg
+          committer_branch: main
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: html, css, javascript, jupyter notebook
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          # FIX FOR C/C++ MISCLASSIFICATION:
-          plugin_languages_indepth: yes        # Analyzes actual code changes, not just file stats
-          plugin_languages_analysis_timeout: 15 # Gives it time to scan large repos
-          plugin_languages_categories: markup, programming
-          plugin_languages_recent_load: 500    # Look at last 500 events
+          plugin_languages_aliases: "C:C/C++, C++:C/C++"
+          # Deep analysis:
+          # plugin_languages_indepth: yes        # Analyzes actual code changes, not just file stats
+          # plugin_languages_analysis_timeout: 15 # min
+          # plugin_languages_categories: markup, programming
+          # plugin_languages_recent_load: 500    # events
