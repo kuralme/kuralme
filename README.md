@@ -1,12 +1,15 @@
-## Hello 👋
 
-I am an aspiring robotics softare engineer and a newcomer to Canada🍁 looking for job opportunities.
-- 🚀 Following new technologies.
-- 🦿 Interested working in `Mobile and Aerial Robotics`, `Manipulators`, `Computer Vision`, `DL/RL` and `Control Systems`.
-- 🐋 Familiar with robotics related programming languages, frameworks, dev environments.
-- 👥 Contributing to open-source projects.
+Roboticist, software engineer and open-source contributor dedicated to building reliable autonomous systems.
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=kuralme&theme=gruvbox)](https://git.io/streak-stats)
+I bridge the gap between high-level autonomy and embedded execution, mapping complex perception and control into safe, real-world motion. Currently, exploring safety-critical systems and embedded C/C++ to ensure the robots of tomorrow work predictably.
 
+---
+
+
+
+
+
+
+<!--[![GitHub Streak](https://streak-stats.demolab.com/?user=kuralme&theme=gruvbox)](https://git.io/streak-stats)-->
 <!--![Stats](./profile/stats.svg)-->
 
