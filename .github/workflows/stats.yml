@@ -1,11 +1,10 @@
 name: Stats
 
-# on:
-#   schedule:
-#     - cron: '0 0 * * *' # Runs every day at midnight
-#   push:
-#     branches: [ "main" ]
-#   workflow_dispatch:
+on:
+  push:
+    branches: [ "nonexistent-branch" ]
+  schedule: []
+  workflow_dispatch: false  # Disables manual triggering.
 
 jobs:
   build:
