@@ -2,9 +2,9 @@ name: Stats
 
 on:
   push:
-    branches: [ "nonexistent-branch" ]
-  schedule: []
-  workflow_dispatch: false  # Disables manual triggering.
+    branches: [ "main" ]
+  schedule: [{ cron: "0 0 * * 0" }] # Runs every Sunday at midnight.
+  workflow_dispatch:
 
 jobs:
   build:
